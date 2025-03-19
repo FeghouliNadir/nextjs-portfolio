@@ -28,7 +28,10 @@ body {
 body {
   font-family: var(--font-inter);
   background-color: white;
-  background-image: radial-gradient(rgba(0, 0, 0, 0.185) .5px, transparent .1px);
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.185) 0.5px,
+    transparent 0.1px
+  );
   background-size: 7px 7px;
 }
 
@@ -63,4 +66,10 @@ h6 {
 
 .theme-button:hover {
   transform: translateY(-6px);
+}
+
+.react-icons {
+  background: linear-gradient(90deg, #00bbff 0%, #00b4f5 44%, #007099 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
