@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+body {
+  font-family: var(--font-inter);
+  background-color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.185) .5px, transparent .1px);
+  background-size: 7px 7px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-schibsted);
+  font-weight: bold;
+}
+
+.custom-bold {
+  font-family: var(--font-schibsted);
+}
+
+.custom-gradient {
+  background: linear-gradient(90deg, #00bbff 0%, #00b4f5 44%, #007099 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.theme-button {
+  background: linear-gradient(90deg, #00bbff 0%, #00b4f5 44%, #007099 100%);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.theme-button:hover {
+  transform: translateY(-6px);
+}
