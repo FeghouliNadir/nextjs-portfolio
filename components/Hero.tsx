@@ -26,7 +26,7 @@ const Hero = () => {
           <a href="#" className="theme-button text-sm md:text-lg lg:text-2xl">Contact me</a>
         </div>
       </div>
-      <MacbookScroll src="/code-picture.png"/>
+      {/* <MacbookScroll src="/code-picture.png"/> */}
     </div>
   );
 };
