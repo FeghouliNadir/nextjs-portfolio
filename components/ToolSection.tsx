@@ -168,7 +168,7 @@ const ToolSection: React.FC = () => {
         <span className="custom-gradient">Tools</span> and{" "}
         <span className="custom-gradient">languages</span> I like to use
       </h2>
-      <div className="mt-6 flex lg:flex-row justify-center items-center gap-6 flex-col">
+      <div className="mt-6 flex lg:flex-row justify-center items-center gap-[60px] flex-col">
         {tools.map((tool, index) => (
           <div key={index} className="text-left">
             <h2 className="font-bold text-2xl mb-3">{tool.category}</h2>

@@ -1,5 +1,6 @@
 import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { motion, stagger, useAnimate } from "motion/react";
 
 const About = () => {
   return (

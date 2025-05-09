@@ -6,7 +6,7 @@ import { MacbookScroll } from "./ui/Macbook-scroll";
 
 const Hero = () => {
   return (
-    <div className="pt-20">
+    <div className="py-20">
       <Spotlight />
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
